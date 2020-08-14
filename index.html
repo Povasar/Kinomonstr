@@ -1,72 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>КиноМонстр - главная</title>
 </head>
+
 <body>
     <nav class="navbar navbar-light bg-light">
-      <div class="container">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Главная</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Фильмы</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Сериалы</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Рейтинг Фильмов</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Контакты</a>
-          </li>
-      </ul>
-
-      </div>
-    </nav> 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9">
-          Content here
-        </div>
-        <div class="col-md-3 order-first order-md-last">
-          Siderbar here
-        </div>
-      </div>
-    </div>
-
-    <footer class="footer">
-      <nav class="navbar navbar-light bg-light">
         <div class="container">
-          
-          <ul class="nav m-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Главная</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Фильмы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Сериалы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Рейтинг фильмов</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Контакты</a>
-              </li>
-      
-          </ul>
-          </div>
-          <h5 class="m-auto">Novokuznetsk</h5>
-        
-         
-      </nav>
-     </footer>
+            <a class="navbar-brand" href="#">КиноМонстр</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Фильмы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Сериалы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Рейтинг Фильмов</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Контакты</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                Content here
+            </div>
+            <div class="col-md-3 order-first order-md-last">
+                <form>
+                    <div class="my-3 p-2 bg-light" id="search-form">
+                        <h5>Поиск</h5>
+                        <form>
+                            <div class="form-row align-items-center">
+                                <div class="col-auto">
+
+                                    <input type="text" class="form-control mb-2 form-control-sm" id="searchText"
+                                        placeholder="Название фильма">
+                                </div>
+
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary mb-2 btn-sm">Найти</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="my-3 p-2 bg-light" id="login-form">
+                        <h4>Поиск</h4>
+                        <form>
+                            <div class="form-row align-items-center">
+                                <div class="col-auto">
+
+                                    <input type="text" class="form-control mb-2 form-control-sm" id="Login"
+                                        placeholder="Логин">
+                                </div>
+                                <div class="col-auto">
+
+                                    <input type="password" class="form-control mb-2 form-control-sm" id="Password"
+                                        placeholder="Пароль">
+                                </div>
+
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-primary mb-2 btn-sm">Вход</button>
+                                </div>
+                            </div>
+                            <a href="#">забыли пароль?</a>
+                            <a href="#">регистрация</a>
+                    </div>
+            </div>
+
+            <footer class="footer">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container">
+                        <ul class="nav m-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Фильмы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Сериалы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Рейтинг фильмов</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Контакты</a>
+                            </li>
+
+                        </ul>
+
+
+
+
+                    </div>
+
+
+
+
+                    <h5 class="m-auto">Novokuznetsk is my love</h5>
+
+
+                </nav>
+            </footer>
 </body>
+
 </html>
