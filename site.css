@@ -4,3 +4,39 @@
 h2 {
     font-size: 1.6rem;
 }
+
+.bg-dark {
+    background-color: darkslateblue!important;
+}
+.navbar-brand {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+}
+.navbar-brand-sm {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.navbar-brand-sm:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+a.nav-link:hover {
+    color: yellow;
+}
+a.nav-link.active {
+    color: darkorange;
+    font-weight: bold;
+}
+
+a.nav-link.active:hover {
+    color: yellow;
+}
+footer h5 {
+    color: white;
+}
